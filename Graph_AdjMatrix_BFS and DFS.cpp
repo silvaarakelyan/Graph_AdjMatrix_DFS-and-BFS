@@ -2,6 +2,7 @@
 #include<list>
 using namespace std;
 
+////////////////////QUEUE////////////////////////
 struct node {
     int info;
     node *next;
@@ -73,7 +74,7 @@ bool Queue::isEmpty() {
     return (front == NULL);
 }
  
-
+/////////////////////////Graph///////////////////////////////
 class Graph{
 private:
 	int **AdjMatrix;
